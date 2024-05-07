@@ -35,7 +35,7 @@ public class Contador {
 	public  void contar(int parametroUm, int parametroDois) throws ParametrosInvalidosException {
 
 		if (parametroUm < parametroDois) {
-			throw new ParametrosInvalidosException("Erro: parametroUm não pode ser maior que o parametroDois. ");
+			throw new ParametrosInvalidosException("Erro: parametroUm não pode ser menor que o parametroDois. ");
 		}
 		
 		else {
